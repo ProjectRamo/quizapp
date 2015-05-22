@@ -1,0 +1,40 @@
+{"montyquiz":
+  [
+  {
+    "id":1,
+    "question":"What is your name?",
+    "answer":4,
+    "option1":"Brian",
+    "option2":"Gallahad",
+    "option3":"Obi-wan",
+    "option4":"None of the above"
+  },
+  {
+    "id":2,
+    "question":"What your quest?",
+    "answer":1,
+    "option1":"To seek out the holy grail",
+    "option2":"HG",
+    "option3":"Um...",
+    "option4":"None of the above"
+  },
+  {
+    "id":3,
+    "question":"What is your favorite color?",
+    "answer":3,
+    "option1":"Red",
+    "option2":"No, wait... blue",
+    "option3":"Purple",
+    "option4":"None of the above"
+  },
+  {
+    "id":4,
+    "question":"What is the airspeed velocity of a swallow",
+    "answer":1,
+    "option1":"African or European",
+    "option2":"33 mph",
+    "option3":"Fast",
+    "option4":"None of the above"
+   }
+  ]
+}

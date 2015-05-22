@@ -2,15 +2,21 @@
 <html>
 <head>
 	<title>Quiz App</title>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" href="styles/reset.css">
 	<link rel="stylesheet" href="styles/quiz.css"/> 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
 	<h1>Quiz App</h1>
-	<h2>Current Quesion 3 of 20</h2>
-	<div>What is the airspeed velocity of an unladen swallow?</div>
+	<div id="quiz_holder"></div>
+	<a class="btn" onclick="nextquest()"> Next> </a>	
+</body>
+</html>
+
+<!--
+		<div>What is the airspeed velocity of an unladen swallow?</div>
 	<form name="myform">
 		<div align="left"><br>
 			<input type="radio" name="group1" value="Skip" checked>Skip<br>
@@ -20,8 +26,3 @@
 			<input type="radio" name="group1" value="None">None of the above<br>
 		</div>
 	</form>
-
-	<a class="btn" href="">Select></a>
-	<h2> Current Score: 1 of 3</h2>
-</body>
-</html>

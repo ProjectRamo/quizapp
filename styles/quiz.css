@@ -30,3 +30,7 @@ h1, h2 {
   text-decoration: none;
 }
 
+#quiz_holder {
+    border-color: red;
+    border-style: solid;
+}
